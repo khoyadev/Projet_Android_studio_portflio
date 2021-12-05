@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_profil">
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.example.portflio.ui.profil.ProfilFragment"
+        android:label="@string/menu_profil"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/nav_formation_certification"
+        android:name="com.example.portflio.ui.formation_certification.Formation_certificationFragment"
+        android:label="@string/menu_formation_certification"
+        tools:layout="@layout/fragment_formation_certification" />
+
+    <fragment
+        android:id="@+id/nav_experiences"
+        android:name="com.example.portflio.ui.experiences.ExperiencesFragment"
+        android:label="@string/menu_experiences"
+        tools:layout="@layout/fragment_experiences" />
+    <fragment
+        android:id="@+id/nav_references"
+        android:name="com.example.portflio.ui.references.ReferencesFragment"
+        android:label="@string/menu_references"
+        tools:layout="@layout/fragment_references" />
+    <fragment
+        android:id="@+id/nav_centre_interet"
+        android:name="com.example.portflio.ui.centre_interet.Centre_interetFragment"
+        android:label="@string/menu_centre_interet"
+        tools:layout="@layout/fragment_centre_interet" />
+    <fragment
+        android:id="@+id/nav_qualites_personnelles"
+        android:name="com.example.portflio.ui.qualites_personnelles.Qualites_personnellesFragment"
+        android:label="@string/menu_qualites_personnelles"
+        tools:layout="@layout/fragment_qualites_personnelles" />
+    <fragment
+        android:id="@+id/nav_competences"
+        android:name="com.example.portflio.ui.competences.CompetencesFragment"
+        android:label="@string/menu_competences"
+        tools:layout="@layout/fragment_competences" />
+</navigation>

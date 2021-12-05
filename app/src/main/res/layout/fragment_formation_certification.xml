@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.formation_certification.Formation_certificationFragment"
+    android:orientation="vertical">
+    <TextView
+        android:text="Institut Supérieur d'Informatique - ISI "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colortitre"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:text="INFORMATIQUE APPLIQUÉ À LA GESTION "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colortitre"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:text="2019 - 2020 : License 3 Professionnelle "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colortext"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:text="Institut Supérieur d'Informatique - ISI "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colortitre"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:text="RÉSEAU INFORMATIQUE ET GÉNIE LOGICIEL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colortitre"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:text="2018 - 2019 : License 2 Professionnelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colortext"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:text="2017 - 2018 : License 1 Professionnelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colortext"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="12sp"
+        />
+
+
+
+    <TextView
+        android:text="Educazur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colortitre"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:text="2016 - 2017 : Baccalauréat S2 "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colortext"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="12sp"
+        />
+
+
+    <TextView
+        android:text="Cem diamaguene Sicap Mbao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colortitre"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:text="2014 - 2015 : BFEM  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colortext"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="12sp"
+        />
+
+
+</LinearLayout>

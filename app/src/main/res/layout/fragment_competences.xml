@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.competences.CompetencesFragment"
+    android:layout_marginBottom="16dp"
+    >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            >
+
+                                <TextView
+                                    android:id="@+id/frontend"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:paddingTop="16dp"
+                                    android:text="Front-End"
+                                    android:textColor="@color/colortitre"
+                                    android:textSize="32dp" />
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="8dp"
+                                    android:src="@drawable/ui"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+                                <TextView
+                                    android:id="@+id/Maquetter_une_application"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colortext"
+                                    android:text="Maquetter une application"
+                                    android:textSize="24dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginStart="4dp"
+                                    />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="16dp"
+                            >
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+                                <TextView
+                                    android:id="@+id/Réaliser_une_interface_utilisateur_web_statique_et_daptable"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colortext"
+                                    android:text="Réaliser une interface utilisateur web statique et adaptable"
+                                    android:textSize="24dp"
+                                    android:layout_marginStart="4dp"
+                                    android:layout_gravity="center_horizontal"
+
+                                    />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="16dp"
+                            >
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+                                <TextView
+                                    android:id="@+id/Développer_une_interface_utilisateur_web_dynamique"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colortext"
+                                    android:text="Développer une interface utilisateur web dynamique"
+                                    android:textSize="24dp"
+                                    android:layout_marginStart="4dp"
+                                    android:layout_gravity="center_horizontal"
+
+                                    />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="16dp"
+                            >
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+                                <TextView
+                                    android:id="@+id/Réaliser_une_interface_utilisateur_avec_une_solution_de_gestion_de_contenu"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="4dp"
+                                    android:textColor="@color/colortext"
+                                    android:text="Réaliser une interface utilisateur avec une solution de gestion de contenu ou e- commerce"
+                                    android:textSize="24dp"
+                                    android:layout_gravity="center_horizontal"
+
+                                    />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            >
+
+                                <TextView
+                                    android:id="@+id/backend"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:paddingTop="16dp"
+                                    android:text="Back-End"
+                                    android:textColor="@color/colortitre"
+                                    android:textSize="32dp" />
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="8dp"
+                                    android:src="@drawable/coding"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+                                <TextView
+                                    android:id="@+id/Créer_une_base_de_données"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colortext"
+                                    android:text="Créer une base de données"
+                                    android:textSize="24dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginStart="4dp"
+                                    />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="16dp"
+                            >
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+                                <TextView
+                                    android:id="@+id/Développerlescomposamtsaccès_aux_données"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colortext"
+                                    android:text="Développer les composants d’accès aux données"
+                                    android:textSize="24dp"
+                                    android:layout_marginStart="4dp"
+                                    android:layout_gravity="center_horizontal"
+
+                                    />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="16dp"
+                            >
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+                                <TextView
+                                    android:id="@+id/Développerlapartieback_endduneapplicationwebouwebmobile"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colortext"
+                                    android:text="Développer la partie back-end d’une application web ou web mobile"
+                                    android:textSize="24dp"
+                                    android:layout_marginStart="4dp"
+                                    android:layout_gravity="center_horizontal"
+
+                                    />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="16dp"
+                            >
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+                                <TextView
+                                    android:id="@+id/Elaboreretmettreenœuvredescomposantsdansuneapplicationdegestiondecontenuouecommerce"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="4dp"
+                                    android:textColor="@color/colortext"
+                                    android:text="Elaborer et mettre en œuvre des composants dans une application de gestion de contenu ou e-commerce"
+                                    android:textSize="24dp"
+                                    android:layout_gravity="center_horizontal"
+
+                                    />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            >
+
+                                <TextView
+                                    android:id="@+id/langue"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:paddingTop="16dp"
+                                    android:text="LANGAGES"
+                                    android:textColor="@color/colortitre"
+                                    android:textSize="32dp" />
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="8dp"
+                                    android:src="@drawable/langages"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_24"/>
+
+                                <TextView
+                                    android:id="@+id/HTMLCSS"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colortext"
+                                    android:text="HTML CSS"
+                                    android:textSize="24dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginStart="4dp"
+                                    />
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginStart="4dp"
+                                    android:src="@drawable/htmlcss"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colortext"
+                                    android:text="JAVASCRIPT"
+                                    android:textSize="24dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginStart="4dp"
+                                    />
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginStart="4dp"
+                                    android:src="@drawable/javascript"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colortext"
+                                    android:text="PYTHON"
+                                    android:textSize="24dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginStart="4dp"
+                                    />
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginStart="4dp"
+                                    android:src="@drawable/python"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colortext"
+                                    android:text="JAVA"
+                                    android:textSize="24dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginStart="4dp"
+                                    />
+                                <ImageView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginStart="4dp"
+                                    android:src="@drawable/java"/>
+
+                        </LinearLayout>
+
+                </LinearLayout>
+
+        </ScrollView>
+</LinearLayout>
+

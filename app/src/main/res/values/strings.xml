@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Portflio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Rokhaya Gueye</string>
+    <string name="nav_header_subtitle">rokhydaaba63@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_profil">Profil</string>
+    <string name="menu_formation_certification">Formation/Certification</string>
+    <string name="menu_competences">Compétences</string>
+    <string name="menu_qualites_personnelles">Qualités Personnelles</string>
+    <string name="menu_experiences">Experiences</string>
+    <string name="menu_references">Références</string>
+    <string name="menu_centre_interet">centre d\'interet</string>
+</resources>

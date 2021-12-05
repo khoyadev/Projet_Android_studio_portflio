@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_profil" />
+        <item
+            android:id="@+id/nav_formation_certification"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_formation_certification" />
+        <item
+            android:id="@+id/nav_competences"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_competences" />
+        <item
+            android:id="@+id/nav_qualites_personnelles"
+            android:icon="@drawable/ic_baseline_contacts_24"
+            android:title="@string/menu_qualites_personnelles" />
+        <item
+            android:id="@+id/nav_experiences"
+            android:icon="@drawable/ic_baseline_contacts_24"
+            android:title="@string/menu_experiences" />
+        <item
+            android:id="@+id/nav_references"
+            android:icon="@drawable/ic_baseline_contacts_24"
+            android:title="@string/menu_references" />
+        <item
+            android:id="@+id/nav_centre_interet"
+            android:icon="@drawable/ic_baseline_contacts_24"
+            android:title="@string/menu_centre_interet" />
+    </group>
+</menu>
